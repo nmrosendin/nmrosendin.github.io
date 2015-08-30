@@ -1,0 +1,203 @@
+* {
+	font-family: Lato;
+}
+
+.header1 {
+	color: #333333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    display: block;
+}
+
+.nav {
+	background-color: #C5D8FF;
+	font-size: 16px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.menuitem {
+	padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.comingsoon {
+	text-align: center;
+    font-size: 20px;
+}
+
+
+table, th {
+   	width: 25%;
+   	height: 100%;
+    border-collapse: collapse;
+    float: left;
+    border-right: thin;
+    border-right: 2px solid #E6E6E6;
+}
+
+tbody {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.profile {
+    height: 220px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+ }
+
+.twitter {
+	width: 30px;
+	height: 30px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.facebook {
+	width: 30px;
+	height: 30px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.linkedin {
+	width: 30px;
+	height: 30px;
+	padding-right: 2px;
+	padding-left: 2px;
+
+}
+.github {
+	width: 30px;
+	height: 30px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+p {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.contactme {
+	float: left;
+	margin-left: 0px;
+	display: block;
+	background-color: #F2F2F2;
+}
+
+#title {
+	text-align: left;
+	margin-left: 10px;
+	font-size: 20px;
+	border: 1px;
+
+}
+
+*//*
+form > div {
+	position: relative;
+	margin-top: 2px;
+	margin-right: 1px;
+	margin-bottom: 2px;
+	margin-left: 1px;
+}
+
+form > div > label {
+	position: absolute;
+	margin-top: 2px;
+	margin-right: 1px;
+	margin-bottom: 2px;
+	margin-left: 1px;
+}
+*//
+
+}
+input {
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+}
+
+label {
+	float: left;
+	font-size: 14px;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+}
+
+
+#your-name {
+font-size: 14px;
+text-align: left;
+}
+
+#email {
+font-size: 14px;
+}
+
+#formspree{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+#message {
+	margin-left: 0px;
+	padding-left: 0px;
+	border-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+#send {
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border:1px;
+
+}
+
+//*
+	color: #E02727;
+	font-family: Montserrat;
+	display: block;
+}
