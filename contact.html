@@ -23,7 +23,7 @@
 
 			<div class="contactme">
 				<p id="title">Contact Me</p>
-				<form action="http://formspree.io/nicole.rosendin@gmail.com" method="POST">
+					<form action="http://formspree.io/nicole.rosendin@gmail.com" method="POST">
 				<p class="form">
 					<label for="your-name">Your Name</label>
 					<input type="text" id="your-name" name="name">
@@ -34,10 +34,13 @@
 				</p>
 				<p>
 					<textarea value="comment" form="form" rows="10" cols="60">Leave a message...</textarea>
+				</p>
 				<p id="send">
 					<input type="submit" value="Send">
-				</p>	
 				</p>
+				<div>
+					<input type="hidden" name="_next" value="//site.io/thanks.html" />
+				</div>
 				</form>
 			</div>
 		</body>
