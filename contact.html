@@ -7,7 +7,7 @@
 	</head>
 		<body>
 			<div class="header1">
-				<h1>Nicole Rosendin</h1>
+				<img id='logo' src="images/nicolelogo.png">
 				<div class="nav">
 					<ul>
 						<li>
@@ -22,25 +22,20 @@
 			</div>
 
 			<div class="contactme">
-				<p id="title">Contact Me</p>
-					<form action="http://formspree.io/nicole.rosendin@gmail.com" method="POST">
+				<form action="http://formspree.io/nicole.rosendin@gmail.com" method="POST">
 				<p class="form">
-					<label for="your-name">Your Name</label>
-					<input type="text" id="your-name" name="name">
+					<input placeholder="Full Name" type="text" id="your-name" name="name">
 				</p>	
 				<p class="form">
-					<label for="email">Your Email</label>
-					<input type="email" id="email" name="_replyto">
+					<input placeholder="Email Address" type="email" id="email" name="_replyto">
 				</p>
-				<p>
-					<textarea value="comment" form="form" rows="10" cols="60">Leave a message...</textarea>
+				<p class="form">
+					<textarea placeholder="Leave a Message..." value="comment" form="form" id="message" rows="10" cols="60"></textarea>
 				</p>
 				<p id="send">
-					<input type="submit" value="Send">
+					<input type="submit" id= "sendbutton" value="Send">
+					<input type="hidden" name="_next" value="//http://formspree.io/nicole.rosendin@gmail.com/thanks.html"/>
 				</p>
-				<div>
-					<input type="hidden" name="_next" value="//site.io/thanks.html" />
-				</div>
 				</form>
 			</div>
 		</body>

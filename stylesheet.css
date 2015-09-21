@@ -2,13 +2,12 @@
 	font-family: Lato;
 }
 
-.header1 {
-	color: #333333;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-    display: block;
+#logo {
+	height: 250px;
+	width: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav {
@@ -16,6 +15,27 @@
 	font-size: 16px;
 	padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#homepage {
+	display: block;
+	clear: both;
+	width: 1019px;
+	clear: both;
+}
+
+#leftbar {
+display: inline-block;
+float: left;
+}
+
+#welcome {
+display: inline-block;
+float: right;
+width: 500px;
+margin: 0px 280px 0 0;
+line-height: 180%;
 }
 
 ul {
@@ -53,14 +73,12 @@ a:active {
     font-size: 20px;
 }
 
-
 table, th {
    	width: 25%;
    	height: 100%;
-    border-collapse: collapse;
-    float: left;
     border-right: thin;
     border-right: 2px solid #E6E6E6;
+    padding-right: 10px;
 }
 
 tbody {
@@ -70,8 +88,8 @@ tbody {
 }
 
 .profile {
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: auto;
     border: 1px solid black;
     border-radius: 8px;
 
@@ -104,22 +122,26 @@ tbody {
 	padding-left: 2px;
 }
 
-p {
+p,h3 {
 	text-align: center;
 	margin-left: 10px;
 	margin-right: 10px;
 }
 
-.contactme {
-	float: left;
-	margin-left: 0px;
-	display: block;
+.contactme {	
 	background-color: #F2F2F2;
+	display: block;
+	margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: #FFFFFF;
 }
 
 #title {
 	text-align: left;
-	margin-left: 10px;
+	text-align: center;
+	padding-top: 10px;
 	font-size: 20px;
 	border: 1px;
 
@@ -163,16 +185,18 @@ label {
 
 .form {
 	text-align: left;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #FFFFFF;
 }
 
 
-#your-name {
+#your-name, #email, #message {
 font-size: 14px;
+font-family: Muli;
 text-align: left;
-}
-
-#email {
-font-size: 14px;
+padding: 6px 6px 6px 6px;
 }
 
 #formspree{
@@ -181,28 +205,54 @@ font-size: 14px;
 	padding-right: 10px;
 }
 
-
 #message {
 	margin-left: 0px;
 	padding-left: 0px;
-	border-left: 0px;
 	margin-bottom: 0px;
-	margin-right: 0px;
-	padding: 0px;
+	padding: 5px 5px 5px 5px;
+	width: 390px;
 }
 
 #send {
 	text-align: right;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right: 24px;
+	margin-right: 50px;
 	margin-left: 0px;
 	border:1px;
-
+	padding: 0px 0px 10px 0px;
 }
 
-//*
-	color: #E02727;
-	font-family: Montserrat;
-	display: block;
+#sendbutton {
+	background-color:#44c767;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:6px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding: 4px 10px 4px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+#sendbutton:hover {
+	background-color:#80D180;
+}
+
+.#sendbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.projectscreenshot {
+	height: 650px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
