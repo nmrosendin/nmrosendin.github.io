@@ -272,3 +272,8 @@ border: 1px solid;
 	text-align: center;
 	margin: 0px;
 }
+
+#thanksdiv{
+	display: none;
+	text-align: center;
+}
