@@ -3,7 +3,8 @@
 }
 
 #logo {
-	height: 250px;
+	height: 200px;
+	padding: 10px 10px 10px 10px;
 	width: auto;
 	display: block;
     margin-left: auto;

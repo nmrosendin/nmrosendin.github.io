@@ -40,13 +40,9 @@
 					<h1 id='smiley'>&#9786;</h1>
 				</div>
 				<script type="text/javascript">
-					var div = document.getElementById('thanksdiv');
-					var button=document.getElementById('sendbutton');
-					addEventListener("submit", function(){
+					var showthanks = document.getElementById('thanksdiv');
+					var button=document.getElementById('sendbutton').addEventListener("onclick", showthanks.style.display ='block')
 						console.log('hi');
-						div.style.display = 'block';
-						console.log('hello');
-					});
 					</script>
 				</form>
 			</div>
