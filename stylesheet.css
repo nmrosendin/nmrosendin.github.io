@@ -256,11 +256,20 @@ border: 1px solid;
 }
 
 .projectscreenshot {
-	height: 650px;
+	height: 550px;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;   
+}
+
+#projectstitle {
+	font-family: Muli;
+	font-weight: lighter;
+	padding: 15px 15px 15px 15px;
+	margin-right: 60px;
+	margin-left: 60px;
+	text-align: center;
 }
 
 #thanksmessage {
