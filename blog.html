@@ -4,19 +4,20 @@
 	<title>Nicole Rosendin</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Muli" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript"></script>
 	</head>
 		<body>
 			<div class="header1">
 				<img id='logo' src="images/nicolelogo.png">
 				<div class="nav">
-					<ul>
-						<li>
-							<a class="menuitem" href="index.html" style="color: white;">home</a>
-							<a class="menuitem" href="blog.html"style="color: white;">blog</a>
-							<a class="menuitem" href="projects.html"style="color: white;">projects</a>
-							<a class="menuitem" href="contact.html" style="color: white;">contact</a>
-						</li>
-					</ul>
+					<div class="menuitem">
+						<a id='homeLink'>Home</a>
+						<a id="blogLink">blog</a>
+						<a id="projectsLink">projects</a>
+						<a id="contactLink">contact</a>
+					</div>
+					</div>
 				</div>
 
 			</div>
@@ -26,4 +27,29 @@
 				</p>
 			</div>
 		</body>
+		<script>
+			$(document).ready(function(){
+    			$("#homeLink").click(function(){
+       			 window.location.href="index.html"
+    			});
+  			});
+
+			$(document).ready(function(){
+    			$("#blogLink").click(function(){
+       			 window.location.href="blog.html"
+   				 });
+  			});
+
+  			$(document).ready(function(){
+    			$("#projectsLink").click(function(){
+       			 window.location.href="projects.html"
+   				 });
+  			});
+
+  			$(document).ready(function(){
+    			$("#contactLink").click(function(){
+       			 window.location.href="contact.html"
+   				 });
+  			});
+		</script>
 </html>
