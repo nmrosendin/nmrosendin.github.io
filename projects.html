@@ -26,15 +26,34 @@
 				<div>
 					<h4 id='projectstitle'>Here are some projects I've done using HTML, CSS, Javascript, jQuery, AJAX, JSON and open sourced APIs. Follow their links to view the code on github!</h4>
 				</div>
-				<div>
-					<a href="https://github.com/nmrosendin/recipe"><img class="projectscreenshot" src="images/recipe.png"></a>
-				</div>
-				<div>
-					<a href="https://github.com/nmrosendin/City"><img class="projectscreenshot" src="images/city.png"></a>
-				</div>
-				<div>
-					<a href="https://github.com/nmrosendin/week7_jsonexercise"><img class="projectscreenshot" src="images/mathfacts.png"></a>
-				</div>
+				<div id='all projects'>
+				<table id='tableprojects'>
+					<tr>
+						<td>
+							<div class='project' id='project1'>
+								<a href="https://github.com/nmrosendin/recipe"></a>
+							</div>
+						</td>
+						<td> 
+							<div class='project' id='project2'>
+								<a href="https://github.com/nmrosendin/mathfacts"></a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class='project' id='project3'>
+								<a href="https://github.com/nmrosendin/recipe"></a>
+							</div>
+						</td>
+						<td>
+							<div class='project' id='project4'>
+								<a href="https://github.com/nmrosendin/recipe"></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
 			</div>
 		</body>
 		<script>
@@ -42,21 +61,15 @@
     			$("#homeLink").click(function(){
        			 window.location.href="index.html"
     			});
-  			});
 
-			$(document).ready(function(){
     			$("#blogLink").click(function(){
        			 window.location.href="blog.html"
    				 });
-  			});
 
-  			$(document).ready(function(){
     			$("#projectsLink").click(function(){
        			 window.location.href="projects.html"
    				 });
-  			});
 
-  			$(document).ready(function(){
     			$("#contactLink").click(function(){
        			 window.location.href="contact.html"
    				 });

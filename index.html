@@ -6,12 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato" />
 	<link href='https://fonts.googleapis.com/css?family=Kalam:400,300' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="jquery.js"></script>
+	<script src="./js/jquery.js"></script>
 	<script type="text/javascript"></script>
 	</head>
 		<body>
 			<div class="header1">
-				<a href="nmrosendin.github.io/index.html"><img id='logo' src="images/nicolelogo.png"></a>
+				<img id='logo' src="images/nicolelogo.png"></a>
 				<div class="nav">
 					<div class="menuitem">
 						<a id='homeLink'>Home</a>
@@ -24,7 +24,7 @@
 			</div>
 			<div id='homepage'>
 				<div id ='leftbar'>
-					<table>
+					<table id='tablepicture'>
 						<tr>
 							<td>
 								<img class="profile" src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xtp1/v/t1.0-9/11703297_10204689925181833_2557960561859657030_n.jpg?oh=363d938bf42d645da991b29b794513bf&oe=5649ECBE">
@@ -51,23 +51,42 @@
 			<div>
 				<h4 id='projects'>Some Projects I've worked on</h4>
 			</div>
-			<div>
-				<div id='project1'>
-					<a href="https://github.com/nmrosendin/recipe"><img id='cookies' src="images/recipe.png"></a>
-				</div>
-				<div id='2'>
-					
-				</div>
-				<div id='3'>
-					
-				</div>
+			<div id='all projects'>
+				<table id='tableprojects'>
+					<tr>
+						<td>
+							<div class='project' id='project1'>
+								<a href="https://github.com/nmrosendin/recipe"></a>
+							</div>
+						</td>
+						<td> 
+							<div class='project' id='project2'>
+								<a href="https://github.com/nmrosendin/mathfacts"></a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class='project' id='project3'>
+								<a href="https://github.com/nmrosendin/recipe"></a>
+							</div>
+						</td>
+						<td>
+							<div class='project' id='project4'>
+								<a href="https://github.com/nmrosendin/recipe"></a>
+							</div>
+						</td>
+					</tr>
+				</table>
 			</div>
+			<p id='more'>SEE MORE</p>
 		</body>
 		<script>
-			$("#cookies").hover(function(){
+		$(document).ready(function(){
+			$("#project1, #project2, #project3, #project4").hover(function(){
 		    $(this).animate({'opacity':'0.5'}, 100);
 		    }, function(){
-		    $(this).animate({'opacity':'1'}, 100);
+		    $(this).animate({'opacity':'2'}, 100);
 			});
 
 			// $("#proj1").hover(function () {
@@ -76,28 +95,32 @@
 			// function (){
 			//    $(this).animate({'opacity':'0'}, 100);
 			// });​
+		
+				$("#logo").click(function(){
+       			 window.location.href="index.html"
+    			});
 
-			$(document).ready(function(){
     			$("#homeLink").click(function(){
        			 window.location.href="index.html"
     			});
-  			});
 
-			$(document).ready(function(){
+
     			$("#blogLink").click(function(){
        			 window.location.href="blog.html"
    				 });
-  			});
 
-  			$(document).ready(function(){
+
     			$("#projectsLink").click(function(){
        			 window.location.href="projects.html"
    				 });
-  			});
 
-  			$(document).ready(function(){
+
     			$("#contactLink").click(function(){
        			 window.location.href="contact.html"
+   				 });
+
+    			$("#more").click(function(){
+       			 window.location.href="projects.html"
    				 });
   			});
 		</script>
