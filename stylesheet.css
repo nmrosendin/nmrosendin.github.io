@@ -13,12 +13,13 @@
 
 .header1 {
 	border-bottom: 1px solid #E6E6E6;
+	background-image: url("fabric_of_squares_gray.png");
 }
 
 .nav {
 	font-size: 16px;
 	padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: auto;
     text-align: center;
 }
@@ -33,6 +34,8 @@
 	clear: both;
 	margin-right: auto;
 	margin-left: auto;
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
 }
 
 #leftbar {
@@ -42,13 +45,14 @@ float: left;
 
 #welcome {
 display: inline-block;
-float: right;
 width: 100%;
-padding-right: 50px;
-padding-left: 50px;
+padding-left: 20px;
+padding-right: 20px;
 margin-left: auto;
-margin-right: auto;
 line-height: 180%;
+text-align: left;
+margin-top: auto;
+margin-bottom: auto;
 }
 
 a:link {
@@ -75,7 +79,7 @@ a:active {
     padding-left: 20px;
     text-align: center;
     width: 100%;
-    color: #C5D8FF;
+    color: #B1B1ED;
 }
 
 
@@ -106,7 +110,7 @@ tbody {
  }
 
  .socialmedia {
- 	padding: 10px 10px 10px 10px;
+ 	padding: 10px 10px 0px 10px;
  }
 
 .twitter {
@@ -136,11 +140,6 @@ tbody {
 	padding-left: 2px;
 }
 
-p,h3 {
-	text-align: center;
-	margin-left: 10px;
-	margin-right: 10px;
-}
 
 .contactme {	
 	background-color: #F2F2F2;
