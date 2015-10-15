@@ -141,6 +141,13 @@ a:active {
 	 background-image: url('images/mathfacts.png'); 
 }
 
+#project3 {
+	 background-image: url('images/googlebooks.png'); 
+}
+#project4 {
+	 background-image: url('images/hexcolors.png'); 
+}
+
 #tableprojects {
 	margin-right: auto;
 	margin-left: auto;
@@ -152,7 +159,6 @@ a:active {
 }
 
 td, td {
-	padding: 20px 20px 20px 20px;
 	margin: auto;
 }
 
