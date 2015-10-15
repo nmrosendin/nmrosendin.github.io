@@ -135,6 +135,7 @@ a:active {
 	 background-image: url('images/recipe.png');
 	 background-size: auto 100%;
 	 background-position: center;
+	 margin-right: 40px;
 }
 
 #project2 {
